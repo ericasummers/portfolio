@@ -66,6 +66,10 @@ body {
   border-color: #627AA3;
   }
 
+  .column:hover {
+    background-color: #A8B9C6;
+  }
+
   figcaption {
     display: block;
     font-size: 11px;
