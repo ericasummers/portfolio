@@ -39,9 +39,10 @@ body {
 
 #top-banner {
   width: 90%;
-  background-image: url('img/jellyfish-banner.jpg');
   background-color: #F5F5F5;
+  background-image: url('../img/jellyfish-banner.jpg');
   color: #4B5069;
+  background-repeat: no-repeat;
 }
 
 #content .introduction {
