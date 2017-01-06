@@ -8,14 +8,15 @@ body {
   position: fixed;
   height: 600px;
   text-align: center;
-  background-color: #E4E7EA;
+  background-color: #DAE2F5;
   font-family: "Arial", "Helvetica", sans-serif;
   margin: 0px;
   padding: 0px;
 }
 
 #left-bar h4 {
-  color: #9AA3A5;
+  color: #95A4A7;
+  font-size: 14px;
 }
 
 #left-bar ul {
@@ -29,6 +30,14 @@ body {
   margin-left: 150px;
   float: right;
   padding: 10px;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+}
+
+#top-banner {
+  width: 90%;
+  background-color: #F5F5F5;
+  color: #4B5069;
 }
 
 .row {
@@ -38,13 +47,21 @@ body {
 .column {
   display: inline-block;
   width: 300px;
-}
+  background-color: #BAC9D4;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  }
 
 a:link {
   color: #000000;
   font-weight: bold;
   font-family: "Helvetica", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
 }
 
