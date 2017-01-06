@@ -30,3 +30,34 @@ body {
   float: right;
   padding: 10px;
 }
+
+.row {
+  width: 100%;
+}
+
+.column {
+  display: inline-block;
+  width: 300px;
+}
+
+a:link {
+  color: #000000;
+  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:visited {
+
+}
+
+a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  text-decoration: underline;
+}
