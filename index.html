@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
     <title>Erica's Portfolio</title>
   </head>
   <body>
-
     <div id="left-bar">
       <img src="img/logo.jpg" alt="A picture of the jellyfish logo" width="150px">
       <a href="index.html"><img src="img/icon.png" width="80px" alt="A drawing for Erica logo"></a>
       <h4>Personal Info</h4>
       <ul>
         <li><a href="about.html">About Me</a></li>
-        <li><a href="background.html">Background</a></li>
-        <li><a href="interests.html">Interests</a></li>
       </ul>
 
       <h4>Recent Projects</h4>
@@ -28,7 +26,6 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="additional.html">Additional</a></li>
         <li><a href="legal.html">Legal</a></li>
       </ul>
 
@@ -36,44 +33,48 @@
 
     <div id="content">
       <div id="top-banner">
-        <br><br><br><br>
+        <br><br><br>
         <h1>Erica W. <span style="color:#AECDD5">|</span><div id="designer"> Web designer and developer</div></h1>
       </div>
-      <div class="introduction">
-        <h2>Web Developer Portfolio</h2>
-        <p><span style="font-weight:bold;font-size:16px">W</span>elcome to Erica's portfolio featuring current web design/development projects. This portfolio is a collection of school projects and personal work showcasing examples in coding and design she has put together. As such, some are currently in-progress and will be updated as they go along.</p>
-        <p>Feel free to browse the links to the left for more detailed information and contact her directly at <a href="mailto:ericaw21@gmail.com">ericaw21@gmail.com</a> for any queries/questions/issues.</p>
-      </div>
-
-      <h3>Quick Links</h3>
-      <div id="quick-links" class="row">
-        <div class="column"><h4>Drewpedia Webpage</h4>
-          <p><a href="drew-wiki.html">
-            <figure>
-              <img src="img/drewpedia.png" alt="A preview picture of Drewpedia webpage"></a></p>
-              <figcaption>Drewpedia webpage thumbnail</figcaption>
-            </figure>
-          <p>Along with my partner, we created a Wikipedia look-alike webpage titled "Drewpedia" in order to learn how to design and code a similarly-styled page from scratch. <a href="drew-wiki.html">Find out more on the Drewpedia project page</a>.</p>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2 class="panel-title">Web Developer Portfolio</h2>
         </div>
-        <div class="column"><h4>Animal Shelter Webpage</h4>
-          <p><a href="animal-shelter.html">
-            <figure>
-              <img src="img/animal-shelter.png" alt="A preview picture of the Animal Shelter webpage"></a></p>
-              <figcaption>Animal Shelter thumbnail</figcaption>
-            </figure>
-          <p>As a pair project along with a partner, I created a web page for an animal shelter, while learning about media queries and utilizing cascading style effects and classes. <a href="animal-shelter.html">Find out more on the Animal Shelter project page</a>.</p>
-        </div>
-        <div class="column"><h4>Migranier Pizzeria Webpage</h4>
-          <p><a href="pizzeria.html">
-            <figure>
-              <img src="img/pizzeria.png" alt="A preview picture of the pizzeria webpage"></a></p>
-              <figcaption>Thumbnail of the Pizzeria Webpage</figcaption>
-            </figure>
-          <p>In another pair project, we experimented with CSS styling in order to create two different style sheets and thus two different looks for the same html webpage. This was based on a fictional pizzeria. <a href="pizzeria.html">Find out more on the Pizzeria project page</a>.</p>
+        <div class="panel-body">
+          <p><span style="font-weight:bold;font-size:16px">W</span>elcome to <strong>Erica</strong>'s portfolio featuring current web design/development projects. This portfolio is a collection of school projects and personal work showcasing examples in coding and design she has put together. As such, some are currently in-progress and will be updated as they go along.</p>
+          <p>Feel free to browse the links to the left for more detailed information and contact her directly at <a href="mailto:ericaw21@gmail.com">ericaw21@gmail.com</a> for any queries/questions/issues.</p>
         </div>
       </div>
-      <p>For more examples, please check out the list on the left.</p>
-
+      <div class="container">
+        <h3>Quick Links</h3>
+        <div id="quick-links" class="row">
+          <div class="col-lg-4"><h4><em>Drewpedia Webpage</em></h4>
+            <p><a href="drew-wiki.html">
+              <figure>
+                <img src="img/drewpedia.png" alt="A preview picture of Drewpedia webpage"></a></p>
+                <figcaption>Drewpedia webpage thumbnail</figcaption>
+              </figure>
+            <p>Along with my partner, we created a Wikipedia look-alike webpage titled "Drewpedia" in order to learn how to design and code a similarly-styled page from scratch. <a href="drew-wiki.html">Find out more on the Drewpedia project page</a>.</p>
+          </div>
+          <div class="col-lg-4"><h4><em>Animal Shelter Webpage</em></h4>
+            <p><a href="animal-shelter.html">
+              <figure>
+                <img src="img/animal-shelter.png" alt="A preview picture of the Animal Shelter webpage"></a></p>
+                <figcaption>Animal Shelter thumbnail</figcaption>
+              </figure>
+            <p>As a pair project along with a partner, I created a web page for an animal shelter, while learning about media queries and utilizing cascading style effects and classes. <a href="animal-shelter.html">Find out more on the Animal Shelter project page</a>.</p>
+          </div>
+          <div class="col-lg-4"><h4><em>Migranier Pizzeria Webpage</em></h4>
+            <p><a href="pizzeria.html">
+              <figure>
+                <img src="img/pizzeria.png" alt="A preview picture of the pizzeria webpage"></a></p>
+                <figcaption>Thumbnail of the Pizzeria Webpage</figcaption>
+              </figure>
+            <p>In another pair project, we experimented with CSS styling in order to create two different style sheets and thus two different looks for the same html webpage. This was based on a fictional pizzeria. <a href="pizzeria.html">Find out more on the Pizzeria project page</a>.</p>
+          </div>
+        </div>
+        <p>For more examples, please check out the list on the left.</p>
+      </div>
     </div>
   </body>
 </html>
