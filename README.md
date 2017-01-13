@@ -5,10 +5,15 @@
 ####Portfolio website for Erica Wright to showcase coding and development websites and provide information on who she is and what she does.
 
 ##Technology
-####HTML, CSS, markdown
+#### * HTML
+#### * CSS
+#### * Bootstrap
+#### * Markdown
 
-##Installation
-####Clone the repository from github and open the content. Alternatively, open your web browser to access web page.
+##Installation/Setup
+####Go to https://github.com/ericaw21/portfolio/tree/gh-pages and clone the repository. Open the "index.html" file in a web browser (Chrome recommended) to view webpage.
 
-##Legal
+##License
+*MIT*
+
 ##Copyright (c) 2017 Erica Wright All Rights Reserved.
